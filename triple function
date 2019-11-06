@@ -1,0 +1,11 @@
+x=(2, 3, 4)
+
+def triple(sequence):
+    result = []
+    for element in sequence:
+        result = result + [element * 3]
+    return result
+
+triple([1, 2, 3])
+
+triple(x)
